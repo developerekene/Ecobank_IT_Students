@@ -1,0 +1,99 @@
+*{
+    padding: 0;
+    margin: 0;
+    background-color: #f8faf4;
+}
+
+.navMainDiv{
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 10px 10px 50px;
+    border-bottom: 1px solid black;
+}
+
+.navMainDiv .listItems {
+    text-decoration: none;
+    color: black;
+}
+
+.subDiv{
+    display: flex;
+    gap: 60px;
+    align-items: center;
+    height: 70px;
+}
+
+.subDiv .logoTitle {
+    text-decoration: none;
+    color: rgb(27, 73, 66);
+}
+
+.ulDiv{
+    display: flex;
+    gap: 40px;
+    margin: 0;
+    padding: 0;
+    font-weight: 500;
+}
+
+.listItems{
+    text-decoration: none;
+    list-style: none;
+    color: black;
+}
+
+.logoTitle{
+    text-decoration: none;
+    list-style: none;
+    color:  rgb(27, 73, 66);
+    font-size: 30px;
+    font-weight: 800;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.lastNav a{
+    padding: 0 48px;
+}
+
+.lastNav{
+    display: flex;
+    height: 70px;
+    align-items: center;
+}
+
+.firstText{
+    display: flex;
+    align-items: center;
+    height: 70px;
+}
+
+.lastNav li{
+    font-weight: 500;
+    color:  rgb(27, 73, 66);
+}
+
+.firstText a{
+    padding: 0 48px;
+}
+
+.lastText{
+    display: flex;
+    align-items: center;
+    height: 79px;
+    border-left: 1px solid black;
+}
+
+.colab-comp{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    gap: 90px;
+
+}
+
+.colab-comp img{
+    width: 90px;
+}
