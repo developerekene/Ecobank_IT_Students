@@ -1,0 +1,98 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 500px;
+    padding-top: 150px;
+}
+
+.body-text {
+    width: 600px;
+    padding-right: 100px;
+    font-size: 1.5rem;
+    color: rgb(27, 73, 66);
+}
+
+.body-img img {
+    width: 500px;
+    padding: 10px;
+}
+
+.body-button{
+    padding: 10px 0;
+    display: flex;
+    gap: 20px;
+}
+
+.button-1 button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+    border: none;
+    padding: 12px 32px;
+    height: 50px;
+    width: 150px;
+    background-color: rgb(27, 73, 66);
+    color: white;
+    font-size: large;
+    font-weight: 700;
+}
+
+  
+.button-1:hover {
+    border-radius: 8px;
+    border: 3px solid rgb(27, 73, 66);
+}
+  
+
+.button-2 button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+    border: 3px solid rgb(27, 73, 66);
+    padding: 12px 32px;
+    height: 50px;
+    width: 150px;
+    background-color: #f8faf4;
+    color: rgb(27, 73, 66);
+    font-size: large;
+    font-weight: 700;
+}
+
+.button-2:hover {
+    border-radius: 8px;
+    border: 2px solid rgb(27, 73, 66);
+}
+
+#colab-div{
+    padding: 10px;
+}
+
+.colab-text{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(27, 73, 66);
+}
+
+.colab-text span{
+    color: blue;
+}
+
+.colab-text a{
+    text-decoration: none;
+}
+
+.colab-comp .listItems img:hover {
+    width: 120px;
+}
+
+
+
