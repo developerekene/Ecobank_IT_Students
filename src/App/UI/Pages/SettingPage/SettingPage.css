@@ -1,0 +1,139 @@
+* {
+  margin: 0;
+  padding: 0;
+  background-color: white;
+}
+.anchor {
+  text-decoration: none;
+  color: black;
+  background-color: white;
+}
+.anchor:hover {
+  background-color: white;
+  color: rgb(27, 73, 66);
+}
+.myName {
+  text-align: center;
+  background-color: white;
+  color: rgb(27, 73, 66);
+}
+.listing {
+  background-color: white;
+  padding: 4px 16px;
+}
+.listi {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+
+  color: white;
+}
+.listing:hover {
+  font-size: 20px;
+}
+.account {
+  text-align: center;
+  color: rgb(27, 73, 66);
+}
+.box {
+  width: 60%;
+  height: 50px;
+  margin: 20px 30px 20px;
+  border-width: 1px;
+}
+.box1 {
+  width: 60%;
+  height: 50px;
+  margin: 3px 30px 20px;
+  border-width: 1px;
+}
+.label {
+  margin-left: 30px;
+}
+.btn {
+  border: solid black;
+  background-color: black;
+  color: white;
+  margin-left: 30px;
+  margin-top: 35px;
+}
+.btn:hover {
+  background-color: rgb(27, 73, 66);
+  color: white;
+}
+.containing {
+  border: solid rgb(27, 73, 66);
+  border-width: 1px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  margin-left: 160px;
+  margin-right: 162px;
+  display: grid;
+  height: 120vh;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 4fr 3fr;
+  grid-template-areas:
+    "side nav nav nav"
+    "side content1 content1 content1"
+    "side content2 content2 content2"
+    "side content3 content3 content3";
+}
+#side {
+  background-color: white;
+  grid-area: side;
+  display: block;
+  border: solid rgb(27, 73, 66);
+  border-width: 1px;
+}
+#nav {
+  background-color: white;
+  grid-area: nav;
+  border: solid rgb(27, 73, 66);
+  border-width: 1px;
+}
+#content1 {
+  background-color: white;
+  grid-area: content1;
+  border: solid rgb(27, 73, 66);
+  border-width: 1px;
+}
+#content2 {
+  background-color: white;
+  grid-area: content2;
+  border: solid rgb(27, 73, 66);
+  border-width: 1px;
+}
+#content3 {
+  background-color: white;
+  grid-area: content3;
+  border: solid rgb(27, 73, 66);
+  border-width: 1px;
+}
+
+@media only screen and (max-width: 700px) {
+  .containing {
+    border: solid rgb(27, 73, 66);
+    border-width: 1px;
+    grid-template-columns: 1fr;
+    grid-template-rows: 0.4fr 1.2fr 0.4fr 0.8fr 0.4fr;
+    grid-template-areas:
+      "nav"
+      "side"
+      "content1"
+      "content2"
+      "content3";
+    
+   
+   }  
+   .listing{
+    text-align: center; 
+  }
+  .myName {
+    text-align: center;
+    /* padding-left: 30px; */
+  }
+  .sideProfile {
+    display: flex;
+    justify-content: center;
+  }
+}

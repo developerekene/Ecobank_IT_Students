@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 * {
     margin: 0;
     padding: 0;
@@ -21,6 +22,22 @@
 }
 
 .sideImg {
+=======
+ .containers {
+    display: grid;
+    height: 85vh;
+    margin: 40px 100px;
+    grid-template-columns: 0.75fr 2fr;
+    grid-template-rows: 3fr 1fr;
+    grid-template-areas: 
+    "side contentOne"
+    "side contentTwo";
+    border: 2px solid rgb(27,73,66);
+}
+
+/* Left Side */
+ .sideImg {
+>>>>>>> Stashed changes
     display: flex;
     align-items: center;
     justify-content: center;
@@ -35,6 +52,7 @@
     color: rgb(27, 73, 66);
 }
 
+<<<<<<< Updated upstream
 .listing {
     padding: 4px 16px;
 }
@@ -60,6 +78,18 @@
     border: solid rgb(27, 73, 66);
     border-width: 1px;
     height: 100%;
+=======
+.sideList a:hover {
+    text-decoration: none;
+    font-size: 20px;
+}
+
+ /*Right Side */
+.contentOne {
+    grid-area: contentOne;
+    padding: 10px;
+    margin-right: 10px;
+>>>>>>> Stashed changes
 }
 
 #nav {
@@ -157,4 +187,4 @@ h3 {
     height: 55px;
     width: 120px;
     font-size: large;
-}
+}   
