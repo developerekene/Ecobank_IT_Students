@@ -94,5 +94,16 @@
     width: 120px;
 }
 
+.colab-comp{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    gap: 90px;
 
+}
+
+.colab-comp img{
+    width: 90px;
+}
 

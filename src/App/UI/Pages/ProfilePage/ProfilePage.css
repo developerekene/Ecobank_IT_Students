@@ -1,58 +1,111 @@
-.containers {
-    display: grid;
-    height: 85vh;
-    margin: 40px 100px;
-    grid-template-columns: 0.75fr 2fr;
-    grid-template-rows: 3fr 1fr;
-    grid-template-areas: 
-    "side contentOne"
-    "side contentTwo";
-    border: 2px solid rgb(27,73,66);
+* {
+    margin: 0;
+    padding: 0;
 }
 
-/* Left Side */
+.containers {
+    border: solid rgb(27, 73, 66);
+    border-width: 1px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 160px;
+    margin-right: 162px;
+    display: grid;
+    height: 100%;
+    grid-template-columns: 0.75fr 2fr;
+    grid-template-rows: 0.2fr 2fr 0.25fr;
+    grid-template-areas:
+        "side nav"
+        "side content1"
+        "side content2"
+}
+
 .sideImg {
     display: flex;
-    justify-content: center
+    align-items: center;
+    justify-content: center;
 }
 
-.sideText {
-    height: 100px;
-    padding: 0, 20px;
-}
-
-.sideText h3 {
-    text-align: center;
-}
-
-.sideList {
-    padding-top: 20px;
-    list-style: none;
-    font-size: larger;
-}
-
-.sideList a {
+.anchor {
     text-decoration: none;
     color: black;
 }
 
-.sideList li {
-    padding: 6px;
+.anchor:hover {
+    color: rgb(27, 73, 66);
 }
 
-.sideList a:hover {
+.listing {
+    padding: 4px 16px;
+}
+
+.listi {
+    list-style-type: none;
+    margin: 0;
+    padding: 10px 10px;
+    color: white;
+}
+
+.listi li {
+    padding: 10px;
+}
+
+.listing:hover {
     font-size: 20px;
 }
 
-/* Right Side */
-.contentOne {
-    grid-area: contentOne;
-    padding: 10px;
-    margin-right: 10px;
+#sideL {
+    grid-area: side;
+    display: block;
+    border: solid rgb(27, 73, 66);
+    border-width: 1px;
+    height: 100%;
 }
 
-.contentOne h4 {
+#nav {
+    grid-area: nav;
+    border: solid rgb(27, 73, 66);
+    border-width: 1px;
+}
+
+h3 {
     text-align: center;
+    color: rgb(27, 73, 66);
+  }
+
+#content1 {
+    grid-area: content1;
+    border: solid rgb(27, 73, 66);
+    border-width: 1px;
+    padding: 10px;
+}
+
+#content2 {
+    grid-area: content2;
+    border: solid rgb(27, 73, 66);
+    border-width: 1px;
+}
+
+@media only screen and (max-width: 700px) {
+    .containers {
+        grid-template-columns: 1fr;
+        grid-template-rows: 0.4fr 1.2fr 1fr 0.2fr;
+        grid-template-areas:
+            "nav"
+            "side"
+            "content1"
+            "content2";
+    }
+    .listi li {
+        text-align: center;
+    }
+    .contentButton {
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        padding: 10px;
+        margin: 10px 20px 0 ;
+    }
 }
 
 .phoneNumber {
