@@ -1,0 +1,112 @@
+  * {
+    margin: 0;
+    padding: 0;
+    /* background-color: #e1e6e1;   */
+  }
+  .course-anchor {
+    text-decoration: none;
+    color: rgb(27, 73, 66);
+  }
+  .course-anchor:hover{
+    text-decoration: none;
+    color: rgb(27, 73, 66);
+    font-size: 40px;
+  }
+  i {
+    color: goldenrod;
+  }
+  hr.line {
+    margin-top: 40px;
+    border-radius: 2px;
+    border-block-color: rgb(27, 73, 66);
+    /* border:1px solid rgb(27, 73, 66); */
+  }
+  .header {
+    padding-top: 80px;
+  }
+  /* .course-one {
+    width: 350px;
+    height: 220px;
+  } */
+  .image-two {
+    width: 300px;
+  }
+  .names {
+    font-size: 13px;
+  }
+  .course {
+    width: 351px;
+    height: 450px;
+  }
+  .courses {
+    width: 268px;
+    height: 450px;
+  }
+  .courses:hover {
+    border: 2px solid rgb(27, 73, 66);
+    width: 269px;
+  }
+  .course:hover {
+    border: 2px solid rgb(27, 73, 66);
+    width: 352px;
+  }
+  .text {
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(27, 73, 66);
+    padding: 15px;
+  }
+  .section-title {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(27, 73, 66);
+  }
+  .section-subtitle {
+    color: rgb(27, 73, 66);
+    font-family: Georgia, "Times New Roman", Times, serif;
+  }
+
+  /* * {
+    margin: 0;
+    padding: 0;
+  }
+
+  .popular {
+    text-align: center;
+    padding-top: 50px;
+    font-size: 2.25rem;
+    font-weight: 400;
+    font-family: cursive;
+    line-height: 130%;
+    letter-spacing: -0.3px;
+    color: rgb(27, 73, 66);
+    text-decoration: underline;
+  }
+  p {
+    text-align: start;
+  }
+  .description {
+    font-size: 2rem;
+    font-weight: 400;
+    font-family: Reckless-Light, sans-serif;
+    line-height: 130%;
+    letter-spacing: -0.3px;
+    color: rgb(27, 73, 66);
+    text-align: center;
+  }
+  .head-par {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 400;
+    font-family: Reckless-Light, sans-serif;
+    line-height: 130%;
+    letter-spacing: -0.3px;
+    color: rgb(27, 73, 66);
+  }
+  .course-one {
+    width: 300px;
+    height: 400px;
+    background-color: #e1e6e1;
+  }
+  .image-div {
+    /* width: 300px; */
+  /* }
+  container color: #e1e6e1 */
