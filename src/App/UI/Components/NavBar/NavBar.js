@@ -12,10 +12,10 @@ const Navbar = () => {
                     <a href="/profile-page" className="listItems">
                         <li>Profile</li>
                     </a>
-                    <a href="#" className="listItems">
+                    <a href="/course-page" className="listItems">
                         <li>Courses</li>
                     </a>
-                    <a href="#" className="listItems">
+                    <a href="/setting-page" className="listItems">
                         <li>Settings</li>
                     </a>
                     <a href="#" className="listItems">

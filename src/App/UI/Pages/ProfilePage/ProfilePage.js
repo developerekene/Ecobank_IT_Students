@@ -5,6 +5,7 @@ import user from "../../../Images/png/user.png"
 function ProfilePage() {
     return (
         <div className="containers">
+<<<<<<< Updated upstream
             <div id="sideL">
                 <div className="sideImg"><img src={user} alt="profile" /></div>
                 <h3>Brambifa Peter</h3>
@@ -106,6 +107,22 @@ function ProfilePage() {
                     <label>Zip</label>
                     <input type="text" class="form-control" id="zip" placeholder="" required="" />
                     </div>
+=======
+            <div className="side">
+                <div className="sideImg"><img src={user} /></div>
+                <div className="sideText">
+                    <h3>Brambifa Peter</h3>
+                    <ul className="sideList">
+                        <li><a href="/setting-page">Account </a></li>
+                        <li><a href="#" style={{color: "#006400"}}><strong>Profile</strong></a></li>
+                        <li><a href="#">Photo </a></li>
+                        <li><a href="#">Account security</a></li>
+                        <li><a href="#"> Subscriptions</a></li>
+                        <li><a href="#">Payment Methods</a></li>
+                        <li><a href="#">Notifications</a></li>
+                        <li><a href="#">Close Account</a></li>
+                    </ul>
+>>>>>>> Stashed changes
                 </div>
             </div>
             <div id="content2">
