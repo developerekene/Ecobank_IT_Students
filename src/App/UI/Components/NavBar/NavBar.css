@@ -69,12 +69,12 @@
     height: 70px;
 }
 
-.lastNav li{
+.lastNav .listItems{
     font-weight: 500;
     color:  rgb(27, 73, 66);
 }
 
-.firstText a{
+.firstText .listItems{
     padding: 0 48px;
 }
 
@@ -85,15 +85,3 @@
     border-left: 1px solid black;
 }
 
-.colab-comp{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 20px;
-    gap: 90px;
-
-}
-
-.colab-comp img{
-    width: 90px;
-}
