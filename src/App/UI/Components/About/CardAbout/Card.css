@@ -1,0 +1,97 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.top-section {
+  background-color: #fff;
+  padding: 0;
+}
+
+.team-item {
+  background-color: #f4f5f6;
+  border: solid 1.5px rgb(27, 73, 66);
+  border-radius: 8px;
+  color: rgb(27, 73, 66);
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  padding: 50px 20px 40px 20px;
+}
+.section-title,
+.section-subtitle {
+  color: rgb(27, 73, 66);
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.subtitle {
+  font-weight: 500;
+}
+.section-subtitle {
+  color: rgb(27, 73, 66);
+}
+.team-item:hover {
+  background-color: rgb(27, 73, 66);
+  color: white !important;
+}
+
+.team-item h3 {
+  margin: 20px 0 1px 0;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.team-info {
+  display: block;
+  margin-bottom: 0;
+}
+
+.team-info p {
+  color: #acacac;
+  font-style: italic;
+}
+
+.team-img {
+  max-width: 140px;
+  padding: 6px 6px;
+  background-color: #dedede;
+  height: 150px;
+}
+
+ul.team-icon {
+  margin-top: 25px;
+}
+
+ul.team-icon li {
+  display: inline-block;
+  margin: 0 3px;
+}
+
+ul.team-icon li a {
+  margin: 0;
+  display: inline-block;
+  padding: 8px 8px;
+  width: 34px;
+  height: 34px;
+  font-size: 18px;
+  line-height: 18px;
+  background-color: #fff;
+  border-radius: 50%;
+  color: #fff;
+}
+.line {
+  border: solid;
+  margin-top: 10px;
+  margin-bottom: 60px;
+  color: rgb(27, 73, 66);
+}
+
+ul.team-icon li a.twitter {
+  background-color: #4099ff;
+}
+ul.team-icon li a.instagram {
+  background-color: #6559ca;
+}
+ul.team-icon li a.facebook {
+  background-color: #db5998;
+}

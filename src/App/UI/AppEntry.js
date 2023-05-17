@@ -5,11 +5,11 @@ import Profile from "./Pages/ProfilePage/ProfilePage";
 import Index from "../routes/Index";
 
 const AppEntry = () => {
-    return (
-        <>
-            <Index />
-        </>
-    )
-}
+  return (
+    <>
+      <Index />
+    </>
+  );
+};
 
-export default AppEntry
+export default AppEntry;
