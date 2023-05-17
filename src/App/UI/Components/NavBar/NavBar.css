@@ -1,7 +1,7 @@
 *{
     padding: 0;
     margin: 0;
-    background-color: #f8faf4;
+    /* background-color: #f8faf4; */
 }
 
 .navMainDiv{
@@ -84,4 +84,7 @@
     height: 79px;
     border-left: 1px solid black;
 }
+<<<<<<< Updated upstream
 
+=======
+>>>>>>> Stashed changes
